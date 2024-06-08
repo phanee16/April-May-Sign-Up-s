@@ -16,8 +16,10 @@ transaction_start_date:  datetime
 amt: float
 
 ## Sample data
-transaction_id	signup_id	transaction_start_date	amt
-1	                  100	      2020-04-30	        24.9
-2	                  101	      2020-04-16	        24.9
-3	                  102	      2020-04-28	        9.9
-4	                  102	      2020-05-28	        9.9
+| transaction_id | signup_id | transaction_start_date | amt  |
+|----------------|-----------|------------------------|------|
+| 1              | 100       | 2020-04-30             | 24.9 |
+| 2              | 101       | 2020-04-16             | 24.9 |
+| 3              | 102       | 2020-04-28             | 9.9  |
+| 4              | 102       | 2020-05-28             | 9.9  |
+
