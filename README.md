@@ -10,12 +10,15 @@ Your output should contain a list of non duplicated sign-up IDs.
 
 
 ## Table: transactions
-transaction_id:  int
-signup_id:  int
-transaction_start_date:  datetime
-amt: float
 
-## Sample data
+### Column Types
+- `transaction_id`: int
+- `signup_id`: int
+- `transaction_start_date`: datetime
+- `amt`: float
+
+
+### Sample data
 | transaction_id | signup_id | transaction_start_date | amt  |
 |----------------|-----------|------------------------|------|
 | 1              | 100       | 2020-04-30             | 24.9 |
